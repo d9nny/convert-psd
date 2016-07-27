@@ -1,0 +1,67 @@
+/* Navbar */
+
+.navbar {
+	background-color: #ffffff;
+	height: 83px;
+	width: 100%;
+	margin: 0;
+	border: none;
+}
+
+.navbar button {
+	height: 83px;
+	color: #2f8ca7;
+	font-size: 17px;
+	border: 0;
+	border-radius: 0;
+	background-color: #ffffff;
+	font-weight: bold;
+}
+
+.navbar-left, .navbar-right {
+	display: initial;
+}
+
+.navbar-left button {
+	width: 165px;
+	border-right: 2px solid #e5f2f5;
+}
+
+.navbar-right button {
+	width: 83px;
+	margin-right: 15px;
+	border-left: 2px solid #e5f2f5;
+	float: right;
+}
+
+.glyphicon-menu-hamburger, .glyphicon-search {
+	font-weight: lighter;
+	font-size: 35px;
+}
+.glyphicon-menu-hamburger {
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+
+/* Screen sizes */
+
+@media screen and (max-width: 600px) {
+	.navbar, .navbar button {
+		height: 50px;
+		font-size: 13px
+	}
+	.glyphicon-menu-hamburger, .glyphicon-search {
+		font-size: 25px;
+	}
+	.navbar-left button {
+		width: 125px;
+	}
+
+	.navbar-right button {
+		width: 60px;
+		margin-right: 0;
+	}
+}
+
+
