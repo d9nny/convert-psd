@@ -1,4 +1,8 @@
-# Convert PDS 
+# Convert PSD
+
+## Task
+
+To convert the psd in images to a responsive webpage
 
 ## Installation
 
